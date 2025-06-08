@@ -28,7 +28,7 @@ Como este é um projeto estático baseado em HTML, CSS e JavaScript, você não 
 
 1.  Clone este repositório:
     ```bash
-    git clone ([https://github.com/joao-vittorr/Portifolio])
+    git clone [https://github.com/joao-vittorr/Portifolio]
     ```
 
 2.  Navegue até a pasta do projeto:
