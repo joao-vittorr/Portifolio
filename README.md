@@ -41,6 +41,6 @@ E pronto! O site estará funcionando.
 
 ### 🔗 Links
 
-- **Veja o site online:** ``
+- **Veja o site online:** 
 - **LinkedIn:** [https://www.linkedin.com/in/joao-vittorr/](https://www.linkedin.com/in/joao-vittorr/)
 - **GitHub:** [https://github.com/joao-vittorr](https://github.com/joao-vittorr)
