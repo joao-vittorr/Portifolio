@@ -69,10 +69,13 @@
                         class="bg-sky-500 text-white font-bold py-3 px-8 rounded-full hover:bg-sky-600 transition-transform duration-300 transform hover:scale-105 w-full sm:w-auto">
                         Ver Projetos
                     </a>
-                    <a href="asset/JOAO-VITOR-ALEXANDRE-RIBEIRO-CURRICULO.pdf" download="JOAO-VITOR-ALEXANDRE-RIBEIRO-CURRICULO.pdf"
+                    <a href="asset/JOAO-VITOR-ALEXANDRE-RIBEIRO-CURRICULO.pdf"
+                        download="JOAO-VITOR-ALEXANDRE-RIBEIRO-CURRICULO.pdf"
                         class="bg-gray-700 text-white font-bold py-3 px-8 rounded-full hover:bg-gray-600 transition-transform duration-300 transform hover:scale-105 flex items-center justify-center gap-2 w-full sm:w-auto">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            <path fill-rule="evenodd"
+                                d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
                         </svg>
                         Baixar CV
                     </a>
@@ -163,16 +166,20 @@
         <section id="experience" class="py-20 bg-gray-800">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl font-bold text-center text-white mb-12">Minha Jornada</h2>
-                <div class="relative max-w-2xl mx-auto">
-                    <!-- Linha da timeline -->
-                    <div class="absolute left-1/2 w-0.5 h-full bg-gray-700 transform -translate-x-1/2"></div>
+                <!-- Container da Timeline -->
+                <div class="relative max-w-5xl mx-auto">
+                    <!-- Linha da timeline (agora à esquerda em mobile, e no centro em telas maiores) -->
+                    <div class="absolute left-0 md:left-1/2 w-0.5 h-full bg-gray-700 transform md:-translate-x-1/2">
+                    </div>
 
-                    <!-- Item da Timeline -->
-                    <div class="relative mb-8">
+                    <!-- Item da Timeline 1 -->
+                    <div class="relative pl-8 md:pl-0 mb-12">
+                        <!-- Ponto na linha -->
                         <div
-                            class="absolute w-4 h-4 bg-sky-400 rounded-full mt-1.5 left-1/2 transform -translate-x-1/2">
+                            class="absolute w-4 h-4 bg-sky-400 rounded-full mt-1.5 left-0 md:left-1/2 transform md:-translate-x-1/2">
                         </div>
-                        <div class="ml-[calc(50%+2rem)] pl-8">
+                        <!-- Conteúdo (agora à direita em telas maiores) -->
+                        <div class="md:ml-[calc(50%+2rem)] md:pl-8">
                             <h3 class="text-lg font-bold text-white">Técnico de Informática (Autônomo)</h3>
                             <p class="text-sm text-gray-400 mb-2">Fev/2024 – Mai/2025</p>
                             <p class="text-gray-300">Otimização de sistemas, diagnóstico e resolução de problemas de
@@ -180,34 +187,33 @@
                         </div>
                     </div>
 
-                    <!-- Item da Timeline -->
-                    <div class="relative mb-8 text-right">
+                    <!-- Item da Timeline 2 -->
+                    <div class="relative pl-8 md:pl-0 mb-12">
+                        <!-- Ponto na linha -->
                         <div
-                            class="absolute w-4 h-4 bg-sky-400 rounded-full mt-1.5 right-1/2 transform translate-x-1/2">
+                            class="absolute w-4 h-4 bg-sky-400 rounded-full mt-1.5 left-0 md:left-1/2 transform md:-translate-x-1/2">
                         </div>
-                        <div class="mr-[calc(50%+2rem)] pr-8">
+                        <!-- Conteúdo (agora à esquerda em telas maiores) -->
+                        <div class="md:mr-[calc(50%+2rem)] md:pr-8 md:text-right">
                             <h3 class="text-lg font-bold text-white">Estágio no SEBRAE/RN</h3>
                             <p class="text-sm text-gray-400 mb-2">Jul/2021 – Abr/2023</p>
-                            <p class="text-gray-300">Atendimento, orientação empresarial e gerenciamento de dados
-                                cadastrais.</p>
-                            <p class="text-gray-300">Realização dos processos de formalização, baixa e alteração
-                                cadastral para MEIs</p>
-
+                            <p class="text-gray-300">Atendimento, orientação empresarial, gerenciamento de dados e
+                                realização de processos para MEIs.</p>
                         </div>
                     </div>
 
-                    <!-- Item da Timeline -->
-                    <div class="relative mb-8">
+                    <!-- Item da Timeline 3 -->
+                    <div class="relative pl-8 md:pl-0">
+                        <!-- Ponto na linha -->
                         <div
-                            class="absolute w-4 h-4 bg-sky-400 rounded-full mt-1.5 left-1/2 transform -translate-x-1/2">
+                            class="absolute w-4 h-4 bg-sky-400 rounded-full mt-1.5 left-0 md:left-1/2 transform md:-translate-x-1/2">
                         </div>
-                        <div class="ml-[calc(50%+2rem)] pl-8">
+                        <!-- Conteúdo (agora à direita em telas maiores) -->
+                        <div class="md:ml-[calc(50%+2rem)] md:pl-8">
                             <h3 class="text-lg font-bold text-white">Bolsista PIBID na UEPB</h3>
                             <p class="text-sm text-gray-400 mb-2">2018 – 2019</p>
-                            <p class="text-gray-300">Desenvolvimento de habilidades de comunicação.</p>
-                            <p class="text-gray-300">Desenvolvimento e aplicação de planos de aula e metodologias
-                                inovadoras, ministrando conteúdo de Física e adaptando a linguagem para diferentes
-                                níveis de aprendizado.</p>
+                            <p class="text-gray-300">Desenvolvimento de habilidades de comunicação e aplicação de planos
+                                de aula e metodologias inovadoras.</p>
                         </div>
                     </div>
                 </div>
