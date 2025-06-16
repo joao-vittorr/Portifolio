@@ -1,0 +1,16 @@
+<svg width="150" height="40" viewBox="0 0 150 40" xmlns="http://www.w3.org/2000/svg">
+    <title>Logo Principal João Vitor</title>
+    <!-- Animação de piscar para o cursor -->
+    <style>
+        .cursor {
+            animation: blink 1.2s infinite step-end;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+    <!-- Monograma 'JV' -->
+    <text x="0" y="30" font-family="monospace, sans-serif" font-size="32" font-weight="bold" fill="#d1d5db">JV</text>
+    <!-- Cursor piscando -->
+    <rect class="cursor" x="48" y="32" width="25" height="4" fill="#38bdf8" />
+</svg>
